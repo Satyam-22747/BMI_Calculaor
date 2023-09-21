@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llmain"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/headname"
+      android:textSize="21sp"
+      android:textStyle="bold"
+      android:layout_margin="11dp"
+      android:text="@string/hint_headname"
+      android:textColor="@color/design_default_color_primary_dark"
+      android:textAlignment="center"/>
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="@string/hint_wt"
+      android:id="@+id/edtweight"
+      android:inputType="number"/>
+  <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="@string/hint_htcm"
+      android:id="@+id/edtheightcm"
+      android:inputType="number"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:textColor="#466AC4"
+    android:text="@string/hint_calbtn"
+    android:id="@+id/btnbmi"
+    android:layout_margin="11dp"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/txtresult"
+      android:textSize="21sp"
+      android:textStyle="bold"
+      android:layout_margin="11dp"
+      android:text="@string/hint_txtres"
+      android:textColor="@color/white"
+      android:textAlignment="center"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/numbmi"
+      android:textSize="21sp"
+      android:textStyle="bold"
+      android:layout_margin="11dp"/>
+</LinearLayout>

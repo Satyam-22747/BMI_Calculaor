@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BMI first android</string>
+    <string name="hint_wt">Enter your weight in KG</string>
+    <string name="hint_htcm">Enter your height in CM</string>
+    <string name="hint_txtres">Result</string>
+    <string name="hint_numbmi">BMI:</string>
+    <string name="hint_calbtn">Calculate BMI</string>
+    <string name="hint_headname">BMI Calculator</string>
+
+
+
+</resources>
